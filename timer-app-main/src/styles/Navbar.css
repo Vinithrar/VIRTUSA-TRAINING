@@ -1,0 +1,41 @@
+.navbar {
+  margin: 0;
+  padding: 0;
+  background-color: #2A2A2A;
+  border-bottom: #888888 solid 1px;
+}
+.navbar-items {
+  list-style-type: none;
+  margin: 0;
+  padding: 0.8em 0;
+  overflow: hidden;
+}
+.navbar-item {
+  font-size: 1em;
+  padding: 1em;
+  display: inline;
+  font-weight: bold;
+  margin-right: 1em;
+}
+.navbar-link {
+  text-decoration: underline;
+  
+}
+.navbar-link a {
+  color: inherit;
+}
+.title {
+  font-weight: bolder;
+  font-size: 1.5em;
+}
+
+@media (max-width: 490px) {
+  .title {
+    display: block;
+  }
+  .navbar-items {
+    margin: 0;
+    padding-top: 0;
+    text-align: center;
+  }
+}

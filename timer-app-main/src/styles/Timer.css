@@ -1,0 +1,75 @@
+.timer {
+  position: relative;
+  display: block;
+  padding: 1rem;
+}
+.timer-finished {
+  animation: colorChange 2s linear infinite;
+}
+
+.name-input {
+  padding: 0.4em 0.7em;
+  font-size: 1em;
+  font-weight: bold;
+  width: 75%;
+  border-radius: 7px;
+}
+.upper-button {
+  font-size: 1.45em;
+  margin: 0.1em 0;
+  font-weight: bolder;
+  color: grey;
+  border: none;
+  background-color: inherit;
+  line-height: 0;
+  transition: 0.10s;
+}
+
+.upper-button:hover {
+  color: white;
+}
+
+.delete-button {
+  font-size: 1.8em;
+  line-height: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.middle-timer {
+  margin: 1em 1em 0.3em 1em;
+}
+
+.timer-toggle {
+  font-size: 3em;
+  padding: 0;
+  margin: 0;
+  line-height: 0;
+  width: min-content;
+  padding: 0.3em;
+  border-radius: 50%;
+}
+
+.middle-timer, .lower-timer {
+  text-align: center;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 1.3em;
+} 
+
+.timer-display {
+  font-size: 3em;
+  margin: 0;
+}
+
+.flt-right {
+  float: right;
+}
+
+@keyframes colorChange {
+  0% {background-color: #2A2A2A;}
+  50% {background-color: #6A6A6A;}
+  100% {background-color: #2A2A2A;}
+}
